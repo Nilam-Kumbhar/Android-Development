@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TableRow>
+            <TextView
+                android:text="Name:"
+                android:textSize="18sp"/>
+            <EditText
+                android:id="@+id/etName"
+                android:hint="Enter Name"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Roll No:"
+                android:textSize="18sp"/>
+            <EditText
+                android:id="@+id/etRoll"
+                android:hint="Enter Roll No"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Course:"
+                android:textSize="18sp"/>
+            <EditText
+                android:id="@+id/etCourse"
+                android:hint="Enter Course"/>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/btnSubmit"
+                android:text="Submit"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
