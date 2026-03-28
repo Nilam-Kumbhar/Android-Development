@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginTop="35px"
+    android:clipToPadding="true"
+    android:orientation="vertical"
+    android:padding="10px"
+    android:paddingStart="20px"
+    android:paddingLeft="18px"
+    android:paddingTop="50px"
+    android:paddingEnd="20px"
+    android:paddingRight="18px"
+    android:paddingBottom="50px"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="#6B32D1"
+        android:paddingLeft="8px"
+        android:paddingTop="10px"
+        android:paddingEnd="3px"
+        android:text="Rating Bar"
+        android:textColor="#FBF8F8"
+        android:textSize="24sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+</LinearLayout>
