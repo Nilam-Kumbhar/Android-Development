@@ -1,5 +1,5 @@
 package com.example.gridlayout;
-
+//grid layout
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
